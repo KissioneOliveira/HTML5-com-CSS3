@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: aquamarine;
+            margin: 0px;
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+                    }
+        nav {
+            background-color: rgb(207, 180, 180);
+            padding: 3px;
+            box-shadow: 5px 3px 7px 3px rgba(0, 0, 0, 0.452);
+        } 
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        } 
+        nav > a:hover {
+            text-decoration: underline;
+        }          
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px 0px; 
+            box-shadow: 4px 4px 7px 0px rgba(0, 0, 0, 0.534);
+        } 
+        article {
+            background-color: lightgray;
+        }
+        article > aside {
+            background-color: rgba(231, 104, 104, 0.705);
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }           
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>            
+
+        </nav>
+
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Politica Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>O diretor do Farmanguinhos/Fiocruz, Jorge Mendonça, 
+                    destaca que a parceira trouxe benefícios como a 
+                    incorporação da tecnologia, incluindo a produção 
+                    nacional do insumo farmacêutico ativo (IFA), e a 
+                    ampliação do acesso a um tratamento de ponta para 
+                    usuários do SUS.</p>
+                <aside>
+                    <p>Artigo desenvolvido por Kissione Oliveira</p>
+                </aside>
+
+            </article>
+            <article>
+
+            </article>
+        </section>
+
+    </main>
+    <footer>
+        <p>Desenvolvido por Kissione Oliveira
+
+        </p>
+
+    </footer>
+
+
+</body>
+</html>
